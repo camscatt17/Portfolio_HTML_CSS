@@ -1,8 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: 100vh;
+    box-sizing: border-box; /*Box-sizing é responsável por como a largura e altura totais de um elemento são calculadas*/
     background-color: #F2DEBA;
     color: #820000;
 }
 
-strong{
+.titulo-destaque {
     color: #4E6C50;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
 }
