@@ -26,6 +26,17 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin: 20px;
+}
+
+.apresentacao__img{
+    position: absolute;
+    max-width: 800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    left: 1032px;
+    top: 253px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -40,19 +51,32 @@ body{
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 0px 32px;
+    width: 381px;
+    height: 262px;
 
 }
 
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;  
+    font-size: 24px; 
+}
+
 .apresentacao__links__botoes{
-    background-color: #4E6C50 ;
-    width: 145px;
+    width: 381px;
+    height: 262px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color:black;
+    color:#4E6C50;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    border: 2px solid #4E6C50;
 }
