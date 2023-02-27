@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     box-sizing: border-box; /*Box-sizing é responsável por como a largura e altura totais de um elemento são calculadas*/
-    background-color: #F2DEBA;
+    background-color: #9a9a9a;
     color: #820000;
 }
 
@@ -82,4 +82,13 @@ body{
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     border: 2px solid #4E6C50;
+}
+
+.apresentacao__links__botoes:hover{
+    background-color: #7b7b7b;
+    padding: 3%;
+}
+
+strong:hover{
+    font-size: larger;
 }
