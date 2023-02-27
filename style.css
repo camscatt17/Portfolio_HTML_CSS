@@ -35,7 +35,7 @@ body{
     max-height: 600px;
     width: auto;
     height: auto;
-    left: 1032px;
+    left: 800px;
     top: 253px;
 }
 
@@ -68,6 +68,9 @@ body{
 }
 
 .apresentacao__links__botoes{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 381px;
     height: 262px;
     text-align: center;
