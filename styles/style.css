@@ -1,3 +1,15 @@
+:root{
+    --cor-primaria: #9a9a9a;
+    --cor-secundaria: #820000;
+    --cor-terciaria:#2E3840;
+    --cor-hover: #820000;
+    --cor-rodape:beige;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secudaria: 'Montserrat', sans-serif;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +18,8 @@
 body{
     height: 100%;
     box-sizing: border-box; /*Box-sizing é responsável por como a largura e altura totais de um elemento são calculadas*/
-    background-color: #9a9a9a;
-    color: #820000;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -27,12 +39,13 @@ body{
     font-family: 'Montserrast', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #820000;
+    color: var(--cor-secundaria);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover{
     font-size: xx-large;
+
 }
 
 .apresentacao {
@@ -61,16 +74,16 @@ body{
 
 .apresentacao__conteudo__titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .titulo-destaque {
-    color: #4E6C50;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secudaria);
 }
 
 .apresentacao__links{
@@ -86,7 +99,7 @@ body{
 }
 
 .apresentacao__links__subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;  
     font-size: 24px; 
 }
@@ -102,15 +115,16 @@ body{
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color:#4E6C50;
+    color:var(--cor-terciaria);
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    border: 2px solid #4E6C50;
+    font-family: var(--fonte-secudaria);
+    border: 2px solid var(--cor-terciaria);
 }
 
 .apresentacao__links__botoes:hover{
-    background-color: #7b7b7b;
+    background-color: var(--cor-hover);
     padding: 3%;
+    color:beige;
 }
 
 strong:hover{
@@ -118,11 +132,11 @@ strong:hover{
 }
 
 .rodape{
-    color:beige;
-    background-color: #4E6C50;
+    color:var(--cor-rodape);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secudaria);
     font-size: 24px;
     font-weight: 400;
 }
