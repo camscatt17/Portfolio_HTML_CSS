@@ -28,6 +28,11 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: #820000;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    font-size: xx-large;
 }
 
 .apresentacao {
@@ -113,7 +118,7 @@ strong:hover{
 }
 
 .rodape{
-    color:#820000;
+    color:beige;
     background-color: #4E6C50;
     padding: 24px;
     text-align: center;
