@@ -9,9 +9,11 @@
 <img src="https://img.shields.io/badge/status-em%20desenvolvimento-orange"/>
 </p>
 
-
-![thumbnail](https://user-images.githubusercontent.com/39015235/221880324-04e1c0e6-bd95-452d-8c72-58260abfb059.png)
-
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/39015235/222008280-2e7fee6f-fd22-436c-8c58-1610da84800c.gif" />
+</p>   
+  
+   
 ## Objetivo
 Este projeto em desenvolvimento tem como objetivo aprimorar meus conhecimentos em Front-End ao mesmo tempo em que irei construindo um portfólio do zero a título de demonstrar tais conhecimentos.
 
@@ -45,7 +47,9 @@ Você pode acessar o [projeto em núvem](https://portfolio-html-css-rho.vercel.a
 :memo: Ajustes no footer.
 
 ## Desenvolvedora
-<img src="https://user-images.githubusercontent.com/39015235/221927226-3240dc62-54f3-4aa4-8b0d-58bdb44090be.png" width=115><br><sub>Camila Santos</sub>
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/39015235/221927226-3240dc62-54f3-4aa4-8b0d-58bdb44090be.png" width=115><br><sub>Camila Santos</sub>
+</p>  
 
 ## Licença
 The [MIT License](License.txt) (MIT)
