@@ -16,20 +16,36 @@
 Este projeto em desenvolvimento tem como objetivo aprimorar meus conhecimentos em Front-End ao mesmo tempo em que irei construindo um portfólio do zero a título de demonstrar tais conhecimentos.
 
 ## Ferramentas utilizadas:
-* HTML
-* CSS
-* Flex-box
+* [`HTML`](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [`CSS`](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [`Flex-box`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties)
 
 ## Funcionalidades do projeto
 
-- `Funcionalidade 1`: Aprimorar meus conhecimentos em Front-End
-- `Funcionalidade 2`: Mostrar e ensinar a construção de uma página currículo do zero.
-- `Funcionalidade 3`: Demonstrar o desenvolvimento de responsividade em um projeto web.
-- `Funcionalidade 4`: Demonstrar o uso de Flex box e CSS Grid
+:heavy_check_mark: Aprimorar meus conhecimentos em Front-End
 
-## Feito por:
-### Camila Santos
-### Linkedin: https://www.linkedin.com/in/camilasantos17/
+:heavy_check_mark: Mostrar e ensinar a construção de uma página currículo do zero.
 
-## License
-[MIT](License.txt)
+:heavy_check_mark: Demonstrar o desenvolvimento de responsividade em um projeto web.
+
+:heavy_check_mark: Demonstrar o uso de Flex box e CSS Grid
+
+## Acesso ao Projeto
+Você pode acessar o [projeto em núvem](https://portfolio-html-css-rho.vercel.app/) ou analisar o seu código fonte presente neste repositório.
+
+## Tarefas em Aberto
+:memo: Adicionar uma página de currículo.
+
+:memo: Completar os textos lorem ipsum com informações reais.
+
+:memo: Fazer um estudo mais detalhado da paleta de cor.
+
+:memo: Melhorar a responsividade da página.
+
+:memo: Ajustes no footer.
+
+## Desenvolvedora
+<img src="https://user-images.githubusercontent.com/39015235/221927226-3240dc62-54f3-4aa4-8b0d-58bdb44090be.png" width=115><br><sub>Camila Santos</sub>
+
+## Licença
+The [MIT License](License.txt) (MIT)
