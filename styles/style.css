@@ -1,5 +1,5 @@
 :root{
-    --cor-primaria: #9a9a9a;
+    --cor-primaria: #848484;
     --cor-secundaria: #820000;
     --cor-terciaria:#2E3840;
     --cor-hover: #820000;
@@ -23,7 +23,7 @@ body{
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 2250px;
+    /*width: 2250px;*/
 }
 
 .cabecalho{
@@ -37,7 +37,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: 'Montserrast', sans-serif;
-    font-size: 24px;
+    font-size: 1.5remx;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -53,10 +53,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -64,16 +65,18 @@ body{
 }
 
 .apresentacao__img{
-    max-width: 800px;
+    width: 50%;
+
+    /*max-width: 800px;
     max-height: 600px;
     width: auto;
     height: auto;
     left: 800px;
-    top: 253px;
+    top: 253px;*/
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -82,7 +85,7 @@ body{
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secudaria);
 }
 
@@ -104,15 +107,15 @@ body{
     font-size: 24px; 
 }
 
-.apresentacao__links__botoes{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 381px;
+    width: 50%;
     height: 262px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     text-decoration: none;
     color:var(--cor-terciaria);
@@ -121,7 +124,7 @@ body{
     border: 2px solid var(--cor-terciaria);
 }
 
-.apresentacao__links__botoes:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
     padding: 3%;
     color:beige;
@@ -137,6 +140,24 @@ strong:hover{
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media(max-width: 1100px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    body{
+        background-color: #6a6a6a;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse ;
+    }
 }
