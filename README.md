@@ -36,15 +36,15 @@ Este projeto em desenvolvimento tem como objetivo aprimorar meus conhecimentos e
 Você pode acessar o [projeto em núvem](https://portfolio-html-css-rho.vercel.app/) ou analisar o seu código fonte presente neste repositório.
 
 ## Tarefas em Aberto
-:memo: Adicionar uma página de currículo.
+- [X] Adicionar uma página de currículo.
 
-:memo: Completar os textos lorem ipsum com informações reais.
+- [ ] Completar os textos lorem ipsum com informações reais.
 
-:memo: Fazer um estudo mais detalhado da paleta de cor.
+- [ ] Fazer um estudo mais detalhado da paleta de cor.
 
-:memo: Melhorar a responsividade da página.
+- [ ] Melhorar a responsividade da página.
 
-:memo: Ajustes no footer.
+- [ ] Aplicar os principios de 1. Base 2. Layout 3. Module 4. State 5. Theme para refatorar o código.
 
 ## Desenvolvedora
 <p align="center">
