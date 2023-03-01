@@ -10,6 +10,10 @@
 
 }
 
+html{
+    font-size: 16px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -36,7 +40,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secudaria);
-    font-size: 1.5remx;
+    font-size: 1.5em;
     font-weight: 600;
     color: var(--cor-secundaria);
     text-decoration: none;
@@ -74,7 +78,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 2.25rem;
+    font-size: 2.25em;
     font-family: var(--fonte-primaria);
 }
 
@@ -83,7 +87,7 @@ body{
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-family: var(--fonte-secudaria);
     padding: 2% 0 3%;
 }
@@ -122,7 +126,7 @@ body{
     height: 262px;
     text-align: center;
     border-radius: 8px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     padding: 21.5px 0;
     text-decoration: none;
     color:var(--cor-terciaria);
@@ -147,7 +151,7 @@ strong:hover{
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-secudaria);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
