@@ -44,7 +44,7 @@ Você pode acessar o [projeto em núvem](https://portfolio-html-css-rho.vercel.a
 
 - [ ] Melhorar a responsividade da página.
 
-- [ ] Ajustes no footer.
+- [ ] Aplicar os principios de 1. Base 2. Layout 3. Module 4. State 5. Theme para refatorar o código.
 
 ## Desenvolvedora
 <p align="center">
